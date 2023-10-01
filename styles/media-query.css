@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* Todas as demais mídeas */
+
+/* 
+Typical Device Breakpoints
+--------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to top, #90e6fe, #0084fd);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#img {
+        display: block;
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login div#img img {
+        display: block;
+        width: 310px;
+        height: 520px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.615);
+    }
+
+    section#login > div#img > iframe {
+        width: 310px;
+        height: 520px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.615);
+    }
+
+    section#login > #form {
+        float: right;
+        width: 60%;
+    }
+
+    section#login > div#form > h1 {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 3em;
+        transform: translateY(17px);
+    }   
+
+    section#login > div#form > p {
+        margin-left: 16px;
+        color: #0084fd;
+        font-size: 1em;
+        font-weight: 700;
+        transform: translateY(30px);
+    }
+
+    div.campoForm > div.campo {
+        margin-left: 16px;
+        width: 100%;
+        height: 40px;
+        transform: translateY(60px);
+    }
+
+    div.campo > input[type="text"] {
+        margin-bottom: 5px;
+        padding: 5px;
+        width: 250px;
+        transform: translate(-.1px, -15px);
+    }
+
+    select#table {
+        margin-top: 10px;
+        width: 420px;
+        transform: translateY(-10px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.146);
+    }
+    
+    div.campoForm > div.footer > input[type=submit] {
+        margin-top: 120px;
+        width: 100%;
+        height: 40px;
+    }
+    
+    div.campoForm > div.footer {
+        padding-top: 24%;
+    }
+
+    div.footer > input {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 920px) {
+
+    body {
+        background-image: linear-gradient(to top, #90e6fe, #0084fd);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#img {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login div#img img {
+        display: block;
+        width: 475px;
+        height: 521px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.615);
+    }
+
+    section#login > div#img > iframe {
+        width: 475px;
+        height: 520px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.615);
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    section#login > div#form > h1 {
+        text-align: center;
+        line-height: 1.2;
+        font-size: 3em;
+        transform: translateY(17px);
+    }   
+
+    section#login > div#form > p {
+        margin-left: 16px;
+        color: #0084fd;
+        font-size: 1em;
+        font-weight: 700;
+        transform: translateY(30px);
+    }
+
+    div.campoForm > div.campo {
+        margin-left: 16px;
+        width: 100%;
+        height: 40px;
+        transform: translateY(60px);
+    }
+
+    div.campo > input[type="text"] {
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        width: 250px;
+        transform: translate(-.1px, -15px);
+        background-color: #fff;
+    }
+
+    select#table {
+        height: 250px;
+        margin-top: 10px;
+        width: 425px;
+        transform: translateY(-10px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.146);
+    }
+    
+    div.campoForm > div.footer {
+        padding-top: 24%;
+    }
+
+    div.campoForm > div.footer > input[type=submit] {
+        margin-top: 125px;
+        width: 100%;
+        height: 40px;
+    }
+
+}
